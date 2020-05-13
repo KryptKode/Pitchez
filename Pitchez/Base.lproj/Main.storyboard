@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JsI-96-92c">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -10,7 +10,7 @@
         <!--RecordScreen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="RecordScreen" id="BYZ-38-t0r" customClass="RecordSoundViewController" customModule="PitchMod" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="RecordScreen" id="BYZ-38-t0r" customClass="RecordSoundViewController" customModule="Pitchez" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
         <!--Play Sound View Controller-->
         <scene sceneID="rF7-md-M5Z">
             <objects>
-                <viewController id="8gf-yW-SQl" customClass="PlaySoundViewController" customModule="PitchMod" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="8gf-yW-SQl" customClass="PlaySoundViewController" customModule="Pitchez" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3IX-Or-ki7" customClass="PlaySoundViewController">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,6 +160,9 @@
                         <viewLayoutGuide key="safeArea" id="N4J-jV-Un8"/>
                     </view>
                     <navigationItem key="navigationItem" id="qBC-hJ-Aaz"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="echoButton" destination="pGT-GD-omd" id="1Pr-XK-qxD"/>
                         <outlet property="fastButton" destination="mBp-ph-cfr" id="sVd-Jy-RUN"/>

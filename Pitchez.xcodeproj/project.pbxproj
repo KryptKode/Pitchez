@@ -13,30 +13,12 @@
 		66CA6DE324674FC60049B8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CA6DE124674FC60049B8AE /* Main.storyboard */; };
 		66CA6DE524674FC70049B8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CA6DE424674FC70049B8AE /* Assets.xcassets */; };
 		66CA6DE824674FC70049B8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CA6DE624674FC70049B8AE /* LaunchScreen.storyboard */; };
-		66CA6DF324674FC70049B8AE /* PitchModTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6DF224674FC70049B8AE /* PitchModTests.swift */; };
-		66CA6DFE24674FC70049B8AE /* PitchModUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6DFD24674FC70049B8AE /* PitchModUITests.swift */; };
 		66CA6E0C246B761F0049B8AE /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6E0B246B761F0049B8AE /* PlaySoundViewController.swift */; };
+		66D6CEF5246C38210069FA42 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D6CEF4246C38210069FA42 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		66CA6DEF24674FC70049B8AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66CA6DD024674FC60049B8AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66CA6DD724674FC60049B8AE;
-			remoteInfo = PitchMod;
-		};
-		66CA6DFA24674FC70049B8AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 66CA6DD024674FC60049B8AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 66CA6DD724674FC60049B8AE;
-			remoteInfo = PitchMod;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		66CA6DD824674FC60049B8AE /* PitchMod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchMod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CA6DD824674FC60049B8AE /* Pitchez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pitchez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CA6DDB24674FC60049B8AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CA6DDD24674FC60049B8AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		66CA6DDF24674FC60049B8AE /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
@@ -44,31 +26,12 @@
 		66CA6DE424674FC70049B8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CA6DE724674FC70049B8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CA6DE924674FC70049B8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66CA6DEE24674FC70049B8AE /* PitchModTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchModTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		66CA6DF224674FC70049B8AE /* PitchModTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchModTests.swift; sourceTree = "<group>"; };
-		66CA6DF424674FC70049B8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66CA6DF924674FC70049B8AE /* PitchModUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchModUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		66CA6DFD24674FC70049B8AE /* PitchModUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchModUITests.swift; sourceTree = "<group>"; };
-		66CA6DFF24674FC70049B8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66CA6E0B246B761F0049B8AE /* PlaySoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		66D6CEF4246C38210069FA42 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		66CA6DD524674FC60049B8AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66CA6DEB24674FC70049B8AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66CA6DF624674FC70049B8AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,9 +44,7 @@
 		66CA6DCF24674FC60049B8AE = {
 			isa = PBXGroup;
 			children = (
-				66CA6DDA24674FC60049B8AE /* PitchMod */,
-				66CA6DF124674FC70049B8AE /* PitchModTests */,
-				66CA6DFC24674FC70049B8AE /* PitchModUITests */,
+				66CA6DDA24674FC60049B8AE /* Pitchez */,
 				66CA6DD924674FC60049B8AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +52,12 @@
 		66CA6DD924674FC60049B8AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66CA6DD824674FC60049B8AE /* PitchMod.app */,
-				66CA6DEE24674FC70049B8AE /* PitchModTests.xctest */,
-				66CA6DF924674FC70049B8AE /* PitchModUITests.xctest */,
+				66CA6DD824674FC60049B8AE /* Pitchez.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66CA6DDA24674FC60049B8AE /* PitchMod */ = {
+		66CA6DDA24674FC60049B8AE /* Pitchez */ = {
 			isa = PBXGroup;
 			children = (
 				66CA6DDB24674FC60049B8AE /* AppDelegate.swift */,
@@ -108,35 +67,18 @@
 				66CA6DE424674FC70049B8AE /* Assets.xcassets */,
 				66CA6DE624674FC70049B8AE /* LaunchScreen.storyboard */,
 				66CA6E0B246B761F0049B8AE /* PlaySoundViewController.swift */,
+				66D6CEF4246C38210069FA42 /* TestViewController.swift */,
 				66CA6DE924674FC70049B8AE /* Info.plist */,
 			);
-			path = PitchMod;
-			sourceTree = "<group>";
-		};
-		66CA6DF124674FC70049B8AE /* PitchModTests */ = {
-			isa = PBXGroup;
-			children = (
-				66CA6DF224674FC70049B8AE /* PitchModTests.swift */,
-				66CA6DF424674FC70049B8AE /* Info.plist */,
-			);
-			path = PitchModTests;
-			sourceTree = "<group>";
-		};
-		66CA6DFC24674FC70049B8AE /* PitchModUITests */ = {
-			isa = PBXGroup;
-			children = (
-				66CA6DFD24674FC70049B8AE /* PitchModUITests.swift */,
-				66CA6DFF24674FC70049B8AE /* Info.plist */,
-			);
-			path = PitchModUITests;
+			path = Pitchez;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66CA6DD724674FC60049B8AE /* PitchMod */ = {
+		66CA6DD724674FC60049B8AE /* Pitchez */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66CA6E0224674FC70049B8AE /* Build configuration list for PBXNativeTarget "PitchMod" */;
+			buildConfigurationList = 66CA6E0224674FC70049B8AE /* Build configuration list for PBXNativeTarget "Pitchez" */;
 			buildPhases = (
 				66CA6DD424674FC60049B8AE /* Sources */,
 				66CA6DD524674FC60049B8AE /* Frameworks */,
@@ -146,46 +88,10 @@
 			);
 			dependencies = (
 			);
-			name = PitchMod;
+			name = Pitchez;
 			productName = PitchMod;
-			productReference = 66CA6DD824674FC60049B8AE /* PitchMod.app */;
+			productReference = 66CA6DD824674FC60049B8AE /* Pitchez.app */;
 			productType = "com.apple.product-type.application";
-		};
-		66CA6DED24674FC70049B8AE /* PitchModTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66CA6E0524674FC70049B8AE /* Build configuration list for PBXNativeTarget "PitchModTests" */;
-			buildPhases = (
-				66CA6DEA24674FC70049B8AE /* Sources */,
-				66CA6DEB24674FC70049B8AE /* Frameworks */,
-				66CA6DEC24674FC70049B8AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				66CA6DF024674FC70049B8AE /* PBXTargetDependency */,
-			);
-			name = PitchModTests;
-			productName = PitchModTests;
-			productReference = 66CA6DEE24674FC70049B8AE /* PitchModTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		66CA6DF824674FC70049B8AE /* PitchModUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66CA6E0824674FC70049B8AE /* Build configuration list for PBXNativeTarget "PitchModUITests" */;
-			buildPhases = (
-				66CA6DF524674FC70049B8AE /* Sources */,
-				66CA6DF624674FC70049B8AE /* Frameworks */,
-				66CA6DF724674FC70049B8AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				66CA6DFB24674FC70049B8AE /* PBXTargetDependency */,
-			);
-			name = PitchModUITests;
-			productName = PitchModUITests;
-			productReference = 66CA6DF924674FC70049B8AE /* PitchModUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,17 +106,9 @@
 					66CA6DD724674FC60049B8AE = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					66CA6DED24674FC70049B8AE = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 66CA6DD724674FC60049B8AE;
-					};
-					66CA6DF824674FC70049B8AE = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 66CA6DD724674FC60049B8AE;
-					};
 				};
 			};
-			buildConfigurationList = 66CA6DD324674FC60049B8AE /* Build configuration list for PBXProject "PitchMod" */;
+			buildConfigurationList = 66CA6DD324674FC60049B8AE /* Build configuration list for PBXProject "Pitchez" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66CA6DD724674FC60049B8AE /* PitchMod */,
-				66CA6DED24674FC70049B8AE /* PitchModTests */,
-				66CA6DF824674FC70049B8AE /* PitchModUITests */,
+				66CA6DD724674FC60049B8AE /* Pitchez */,
 			);
 		};
 /* End PBXProject section */
@@ -241,20 +137,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66CA6DEC24674FC70049B8AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66CA6DF724674FC70049B8AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D6CEF5246C38210069FA42 /* TestViewController.swift in Sources */,
 				66CA6DE024674FC60049B8AE /* RecordSoundViewController.swift in Sources */,
 				66CA6DDC24674FC60049B8AE /* AppDelegate.swift in Sources */,
 				66CA6E0C246B761F0049B8AE /* PlaySoundViewController.swift in Sources */,
@@ -269,36 +152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66CA6DEA24674FC70049B8AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66CA6DF324674FC70049B8AE /* PitchModTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66CA6DF524674FC70049B8AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66CA6DFE24674FC70049B8AE /* PitchModUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		66CA6DF024674FC70049B8AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66CA6DD724674FC60049B8AE /* PitchMod */;
-			targetProxy = 66CA6DEF24674FC70049B8AE /* PBXContainerItemProxy */;
-		};
-		66CA6DFB24674FC70049B8AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 66CA6DD724674FC60049B8AE /* PitchMod */;
-			targetProxy = 66CA6DFA24674FC70049B8AE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		66CA6DE124674FC60049B8AE /* Main.storyboard */ = {
@@ -439,13 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PitchMod/Info.plist;
+				INFOPLIST_FILE = Pitchez/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.PitchMod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.Pitchez;
+				PRODUCT_NAME = Pitchez;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,136 +310,38 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PitchMod/Info.plist;
+				INFOPLIST_FILE = Pitchez/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.PitchMod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.Pitchez;
+				PRODUCT_NAME = Pitchez;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		66CA6E0624674FC70049B8AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PitchModTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.PitchModTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchMod.app/PitchMod";
-			};
-			name = Debug;
-		};
-		66CA6E0724674FC70049B8AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PitchModTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.PitchModTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchMod.app/PitchMod";
-			};
-			name = Release;
-		};
-		66CA6E0924674FC70049B8AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PitchModUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.PitchModUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PitchMod;
-			};
-			name = Debug;
-		};
-		66CA6E0A24674FC70049B8AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PitchModUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kryptkode.PitchModUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PitchMod;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66CA6DD324674FC60049B8AE /* Build configuration list for PBXProject "PitchMod" */ = {
+		66CA6DD324674FC60049B8AE /* Build configuration list for PBXProject "Pitchez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66CA6E0024674FC70049B8AE /* Debug */,
 				66CA6E0124674FC70049B8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		66CA6E0224674FC70049B8AE /* Build configuration list for PBXNativeTarget "PitchMod" */ = {
+		66CA6E0224674FC70049B8AE /* Build configuration list for PBXNativeTarget "Pitchez" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				66CA6E0324674FC70049B8AE /* Debug */,
 				66CA6E0424674FC70049B8AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		66CA6E0524674FC70049B8AE /* Build configuration list for PBXNativeTarget "PitchModTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66CA6E0624674FC70049B8AE /* Debug */,
-				66CA6E0724674FC70049B8AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		66CA6E0824674FC70049B8AE /* Build configuration list for PBXNativeTarget "PitchModUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66CA6E0924674FC70049B8AE /* Debug */,
-				66CA6E0A24674FC70049B8AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
