@@ -10,6 +10,14 @@ import UIKit
 
 class PlaySoundViewController: UIViewController {
     
+    @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var slowButton: UIButton!
+    @IBOutlet weak var highPitchButton: UIButton!
+    @IBOutlet weak var fastButton: UIButton!
+    @IBOutlet weak var slowPitchButton: UIButton!
+    @IBOutlet weak var echoButton: UIButton!
+    @IBOutlet weak var reverbButton: UIButton!
+    
     var recordedAudioURL: URL!
 
     override func viewDidLoad() {
@@ -18,15 +26,14 @@ class PlaySoundViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction
+    func playSoundForButton(_ sender: UIButton){
+        print("Play sound button pressed")
     }
-    */
+    
+    @IBAction
+    func handleStopPressed(_ sender: AnyObject){
+        print("Stop button pressed")
+    }
 
 }
