@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66500D56246C49E900D01B71 /* PlaySoundsViewController-Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66500D55246C49E900D01B71 /* PlaySoundsViewController-Audio.swift */; };
 		66CA6DDC24674FC60049B8AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6DDB24674FC60049B8AE /* AppDelegate.swift */; };
 		66CA6DDE24674FC60049B8AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6DDD24674FC60049B8AE /* SceneDelegate.swift */; };
 		66CA6DE024674FC60049B8AE /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA6DDF24674FC60049B8AE /* RecordSoundViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66500D55246C49E900D01B71 /* PlaySoundsViewController-Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PlaySoundsViewController-Audio.swift"; path = "../../../Downloads/PlaySoundsViewController-Audio.swift"; sourceTree = "<group>"; };
 		66CA6DD824674FC60049B8AE /* Pitchez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pitchez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CA6DDB24674FC60049B8AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CA6DDD24674FC60049B8AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				66CA6DE424674FC70049B8AE /* Assets.xcassets */,
 				66CA6DE624674FC70049B8AE /* LaunchScreen.storyboard */,
 				66CA6E0B246B761F0049B8AE /* PlaySoundViewController.swift */,
+				66500D55246C49E900D01B71 /* PlaySoundsViewController-Audio.swift */,
 				66D6CEF4246C38210069FA42 /* TestViewController.swift */,
 				66CA6DE924674FC70049B8AE /* Info.plist */,
 			);
@@ -147,6 +150,7 @@
 				66D6CEF5246C38210069FA42 /* TestViewController.swift in Sources */,
 				66CA6DE024674FC60049B8AE /* RecordSoundViewController.swift in Sources */,
 				66CA6DDC24674FC60049B8AE /* AppDelegate.swift in Sources */,
+				66500D56246C49E900D01B71 /* PlaySoundsViewController-Audio.swift in Sources */,
 				66CA6E0C246B761F0049B8AE /* PlaySoundViewController.swift in Sources */,
 				66CA6DDE24674FC60049B8AE /* SceneDelegate.swift in Sources */,
 			);
