@@ -9,8 +9,8 @@
 import AVFoundation
 import UIKit
 
-class RecordSoundViewController: UIViewController {
-
+class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate {
+    
     @IBOutlet weak var recordStatusLabel: UILabel!
     @IBOutlet weak var stopButton: UIButton!
     @IBOutlet weak var recordButton: UIButton!
@@ -22,8 +22,7 @@ class RecordSoundViewController: UIViewController {
         disableStopButton()
         enableRecordButton()
     }
-
-
+    
     @IBAction func recordAudio(_ sender: Any) {
         updateLabel(message: "Recording in progress")
         enableStopButton()
@@ -33,38 +32,61 @@ class RecordSoundViewController: UIViewController {
         let recordingName = "recordedVoice.wav"
         let pathArray = [dirPath, recordingName]
         let filePath = URL(string: pathArray.joined(separator: "/"))
-
+        
         let session = AVAudioSession.sharedInstance()
-        try! session.setCategory(AVAudioSessionCategoryPlayAndRecord, with:AVAudioSession.CategoryOptions.defaultToSpeaker)
-
+        try! session.setCategory(AVAudioSession.Category.playAndRecord, mode: AVAudioSession.Mode.default, options: AVAudioSession.CategoryOptions.defaultToSpeaker)
+        
         try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
+        audioRecorder.delegate = self
         audioRecorder.isMeteringEnabled = true
         audioRecorder.prepareToRecord()
         audioRecorder.record()
     }
+    
     @IBAction func stopRecord(_ sender: Any) {
-        updateLabel(message: "Tap to record")
+        updateLabel(message: "Saving file...")
         disableStopButton()
+        audioRecorder.stop()
+        let audioSession = AVAudioSession.sharedInstance()
+        try! audioSession.setActive(false)
+    }
+    
+    func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool){
+        if(flag){
+            updateLabel(message: "Tap to record")
+            performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)
+        }else{
+            updateLabel(message: "An error occurred during saving, try recording again")
+        }
+
         enableRecordButton()
     }
     
+    override fun prepare(for segue: UIStoryBoardSegue, sender:Any?){
+        if(segue.identifier = "stopRecording"){
+            let playSoundVC = segue.delegate as! PlaySoundVideController
+            let recordedUrl = sender as! URL
+            playSoundVC.recordedAudoUrl = recordedUrl
+        }
+    }
+    
     private func disableStopButton(){
-         stopButton.isEnabled = false
+        stopButton.isEnabled = false
     }
     
     private func enableStopButton(){
-         stopButton.isEnabled = true
+        stopButton.isEnabled = true
     }
     
     private func disableRecordButton(){
-         recordButton.isEnabled = false
+        recordButton.isEnabled = false
     }
     
     private func enableRecordButton(){
-         recordButton.isEnabled = true
+        recordButton.isEnabled = true
     }
     
-   private func updateLabel(message:String){
+    private func updateLabel(message:String){
         recordStatusLabel.text = message
     }
 }
